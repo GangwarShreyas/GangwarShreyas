@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Production House</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      animation: fade-in 1s ease-in-out;
+    }
+    nav {
+      background-color: #444;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    main {
+      margin: 20px;
+      animation: slide-in 1s ease-in-out;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* CSS Animations */
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slide-in {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Production House</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+  </nav>
+  <main>
+    <h2>Welcome to Your Production House</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique neque nec nunc consequat aliquam. Donec ut metus ut arcu auctor bibendum id et dui. Sed varius erat quis tortor malesuada cursus.</p>
+  </main>
+  <footer>
+    &copy; 2023 Your Production House. All rights reserved.
+  </footer>
+</body>
+</html>
